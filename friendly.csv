@@ -1,0 +1,7 @@
+StudentID,HoursStudied,Grade,Passed,Attendance
+201,15.5,88,Yes,95.0
+202,8.0,62,No,88.0
+203,,75,Yes,90.0
+204,12.0,,Yes,79.0
+205,5.5,45,No,
+206,18.0,95,Yes,98.0
