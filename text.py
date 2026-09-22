@@ -122,19 +122,28 @@
 
 
 
-fruits = ['apple', 'banana', 'cherry', 'date', 'elderberry']
+# fruits = ['apple', 'banana', 'cherry', 'date', 'elderberry']
 
 # Positive indexing
-print(f"First: {fruits[0]}")
-print(f"Third: {fruits[2]}")
+# print(f"First: {fruits[0]}")
+# print(f"Third: {fruits[2]}")
 
 # Negative indexing
-print(f"Last: {fruits[-1]}")
-print(f"Second last: {fruits[-2]}")
+# print(f"Last: {fruits[-1]}")
+# print(f"Second last: {fruits[-2]}")
 
 # Slicing [start:end:step]
-print(f"First 3: {fruits[:3]}")
-print(f"From index 2: {fruits[2:]}")
-print(f"Every 2nd: {fruits[::2]}")
-print(f"Reversed: {fruits[::-1]}")
-print(f"Middle items: {fruits[1:4]}")
+# print(f"First 3: {fruits[:3]}")
+# print(f"From index 2: {fruits[2:]}")
+# print(f"Every 2nd: {fruits[::2]}")
+# print(f"Reversed: {fruits[::-1]}")
+# print(f"Middle items: {fruits[1:4]}")
+
+import seaborn as sns
+# data= sns.get_dataset_names()
+# print(data)
+panguins = sns.load_dataset("penguins")
+# print(panguins)
+print(panguins["species"].value_counts())
+print(panguins.head(5))
+print(panguins["island"].value_counts())
